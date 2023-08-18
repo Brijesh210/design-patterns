@@ -4,7 +4,7 @@ from bank_management.commands import Deposit, Transfer, Withdrawal
 
 
 def main() -> None:
-    # create a bank
+
     bank = Bank()
 
     controller = BankController()
